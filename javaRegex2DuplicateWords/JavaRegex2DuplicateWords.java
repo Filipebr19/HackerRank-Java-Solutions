@@ -8,7 +8,7 @@ public class JavaRegex2DuplicateWords {
     public static void main(String[] args) {
 
         String regex = "(?i)\\b(\\w+)(\\s+\\1\\b)+";
-        Pattern p = Pattern.compile(regex, Pattern.CASE_INSENSITIVE);
+        Pattern pattern = Pattern.compile(regex, Pattern.CASE_INSENSITIVE);
 
         Scanner in = new Scanner(System.in);
         int numSentences = Integer.parseInt(in.nextLine());
@@ -16,10 +16,10 @@ public class JavaRegex2DuplicateWords {
         while (numSentences-- > 0) {
             String input = in.nextLine();
             
-            Matcher m = p.matcher(input);
+            Matcher matcher = pattern.matcher(input);
             
             // Check for subsequences of input that match the compiled pattern
-            while (m.find()) {
+            while (matcher.find()) {
                 input = input.replaceAll(regex, "$1");
             }
             
