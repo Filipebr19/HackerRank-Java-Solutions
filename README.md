@@ -22,6 +22,11 @@ O objetivo é praticar algoritmos, estruturas de dados e melhorar minha lógica 
 
 
 **Strings**
+- Java Strings Introduction
+- Java Substring
+- Java Substring Comparisons
+- Java String Reverse
+- Java Anagrams
 - Java String Tokens
 - Pattern Syntax Checker
 - Java Regex
