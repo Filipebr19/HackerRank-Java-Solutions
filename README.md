@@ -37,3 +37,4 @@ O objetivo é praticar algoritmos, estruturas de dados e melhorar minha lógica 
 **BigNumber**
 - Java BigInteger
 - Java Primality Test
+- Java BigDecimal
