@@ -38,3 +38,6 @@ O objetivo é praticar algoritmos, estruturas de dados e melhorar minha lógica 
 - Java BigInteger
 - Java Primality Test
 - Java BigDecimal
+
+**Data Structures**
+- Java 1D Array
