@@ -41,3 +41,4 @@ O objetivo é praticar algoritmos, estruturas de dados e melhorar minha lógica 
 
 **Data Structures**
 - Java 1D Array
+- Java 2D Array
